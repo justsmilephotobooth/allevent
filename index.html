@@ -315,13 +315,13 @@
                   <p>Very accommodating staff and very nice pictures with quality!</p>
                   <!-- <img src="./assets/image/t1.jpg" alt="" style="width: 50px; border-radius: 50%; justify-content: center;"> -->
                   <h3>Pauly Kardashians</h3>
-                  <ul class="" style="color: #f8b50e; ">
+                  <!-- <ul class="" style="color: #f8b50e; ">
                     <li><i class="fa-solid fa-star"></i></li>
                     <li><i class="fa-solid fa-star"></i></li>
                     <li><i class="fa-solid fa-star"></i></li>
                     <li><i class="fa-solid fa-star"></i></li>
                     <li><i class="fa-solid fa-star"></i></li>
-                  </ul>
+                  </ul> -->
                 </div>
               </div>
               <div class="item">
@@ -400,12 +400,12 @@
               <div class="col-md-6">
                 <div class="footer_box">
                   <h3>Follow us on</h3>
-                  <!-- <ul class="footer_social_box footer_with_icon">
+                  <ul class="footer_social_box footer_with_icon">
                     <li><a href="#"><i class="fab fa-facebook-f"></i> Facebook</a></li>
                     <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
                     <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
                     <li><a href="#"><i class="fab fa-youtube"></i> Youtube</a></li>
-                  </ul> -->
+                  </ul>
                 </div>
               </div>
               <div class="col-md-6">
@@ -425,9 +425,10 @@
   <script>
     function sendEmail() {
       Email.send({
-        Host: "smtp.gmail.com",
-        Username: "jaiyanz22@gmail.com",
-        Password: "B85328327B634C7135D3F1B54C96FC597624",
+        secureToken: "cdb35aa2-653c-4a8f-85d2-ab8610890e4b",
+        // Host: "smtp.gmail.com",
+        // Username: "jaiyanz22@gmail.com",
+        // Password: "B85328327B634C7135D3F1B54C96FC597624",
         To: 'jaiyanz22@gmail.com',
         From: document.getElementById("email").value,
         Subject: "New Contact Form Inquiry",
